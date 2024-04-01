@@ -12,7 +12,11 @@ struct mahasiswa {
 	int umur;
 };
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main(){
+mahasiswa mhs;
+	cout << "Nomor mahasiswa : ";
+	getline(cin, mhs.nim);
+	cout << "Nama Mahasiswa : ";
+	getline(cin, mhs.nama);
+
 }
