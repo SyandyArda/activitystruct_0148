@@ -7,9 +7,10 @@ struct mahasiswa {
     string alamat;
     int umur;
 };
-int main()
-{
-    std::cout << "Hello World!\n";
+
+int main(){
+    mahasiswa mhs;
+    
 }
 
 
